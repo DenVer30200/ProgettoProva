@@ -25,7 +25,7 @@ namespace WPF_13_10_2022
             InitializeComponent();
             
         }
-
+//button per la stampa
         private void stampa_Click(object sender, RoutedEventArgs e)
         {
             content.Content = "Hello World!";
