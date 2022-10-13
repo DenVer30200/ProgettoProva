@@ -23,6 +23,11 @@ namespace WPF_13_10_2022
         public MainWindow()
         {
             InitializeComponent();
+            
+        }
+
+        private void stampa_Click(object sender, RoutedEventArgs e)
+        {
             content.Content = "Hello World!";
         }
     }
